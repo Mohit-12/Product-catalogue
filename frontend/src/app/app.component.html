@@ -1,0 +1,13 @@
+<!-- nav -->
+<nav class="navbar navbar-expand navbar-dark bg-dark">
+  <div class="navbar-nav">
+      <a class="nav-item nav-link" routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Home</a>
+      <a class="nav-item nav-link" routerLink="/product" routerLinkActive="active">Product</a>
+      <a class="nav-item nav-link" routerLink="/cart" routerLinkActive="active">Cart</a>
+  </div>
+</nav>
+
+<!-- main app container -->
+<div class="app-container">
+  <router-outlet></router-outlet>
+</div>
